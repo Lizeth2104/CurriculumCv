@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Lizeth Algarañaz</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 40px 0;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .cv-container {
+      display: flex;
+      width: 900px;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Columna izquierda */
+    .sidebar {
+      background-color: #f0edea;
+      width: 30%;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+
+    .sidebar img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .sidebar h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      width: 100%;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    .info p, .perfil p, .idioma p, .habilidades ul {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .info p {
+      margin: 5px 0;
+    }
+
+    .habilidades ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .habilidades li {
+      margin-bottom: 5px;
+    }
+
+    /* Columna derecha */
+    .main {
+      width: 70%;
+      background-color: #fff;
+      padding: 40px 60px;
+    }
+
+    .main h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .main h2 {
+      font-size: 18px;
+      font-weight: normal;
+      font-style: italic;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .main p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .experiencia, .educacion {
+      margin-bottom: 25px;
+    }
+
+    .experiencia h3, .educacion h3 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .experiencia ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .experiencia li {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    /* --- Educación estilo alineado --- */
+    .educacion .edu-item {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .educacion .edu-year {
+      width: 100px;
+      font-weight: bold;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .educacion .edu-details {
+      flex: 1;
+      font-size: 14px;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 768px) {
+      .cv-container {
+        flex-direction: column;
+        width: 95%;
+      }
+      .main {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <div class="sidebar">
+      <img src="C:\Users\Lizeth Algarañaz\OneDrive\Imágenes\Saved Pictures\IMG-20241225-WA0031.jpg" alt="Foto de Lizeth Algarañaz">
+      <div class="info">
+        <div class="section-title">Contacto</div>
+        <p>📧 lizethalgarnaz04@gmail.com</p>
+        <p>📞 +591 74617621</p>
+        <p>📍 Virgen de Lujan / 7mo y 8vo anillo</p>
+      </div>
+
+      <div class="perfil">
+        <div class="section-title">Perfil</div>
+        <p><strong>Edad:</strong> 23 años</p>
+        <p><strong>Nacimiento:</strong> 21/04/2002</p>
+        <p><strong>Localidad:</strong> Santa Cruz - San Ignacio de Velasco</p>
+        <p><strong>Nacionalidad:</strong> Boliviana</p>
+      </div>
+
+      <div class="idioma">
+        <div class="section-title">Idioma</div>
+        <p>Castellano - Español</p>
+      </div>
+
+      <div class="habilidades">
+        <div class="section-title">Habilidades</div>
+        <ul>
+          <li>Trabajo en equipo</li>
+          <li>Responsabilidad</li>
+          <li>Planificación y organización</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <h1>LIZETH ALGARAÑAZ ALGARAÑAZ</h1>
+      <h2>Estudiante de Ingeniería de Sistemas</h2>
+      <p>
+        Busco aplicar y mejorar mis habilidades, motivada por aprender, aportar ideas y adaptarme a nuevos entornos, 
+        convencida de que la calidad de nuestras vidas depende de la calidad de nuestros hábitos.
+      </p>
+
+      <div class="experiencia">
+        <h3>Experiencia</h3>
+        <ul>
+          <li>Cajera eventual “Kids Cut”</li>
+          <li>Atención al cliente, cajera “Panadería Enita”</li>
+          <li>Reemplazante nivel primario “UE: Monseñor Daniel Rivero I”</li>
+          <li>Atención al cliente “Restaurante Las Piñas”</li>
+        </ul>
+      </div>
+
+      <div class="educacion">
+        <h3>Educación</h3>
+
+        <div class="edu-item">
+          <div class="edu-year">2024</div>
+          <div class="edu-details">
+            <p><strong>• Certificados</strong><br>
+            Curso de automatización de Bots con Telegram.<br>
+            Curso de GitHub.<br>
+            Inteligencia Artificial Generada con Python.</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-year">2020</div>
+          <div class="edu-details">
+            <p><strong>• Universidad</strong><br>
+            “U. Privada Domingo Savio”</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-year">2018-2019</div>
+          <div class="edu-details">
+            <p><strong>• Instituto</strong><br>
+            Sor Hiltrude “IVA”<br>
+            “Sistemas Informático”<br>
+            Básico<br>
+            Auxiliar</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-year">2014-2019</div>
+          <div class="edu-details">
+            <p><strong>• Bachiller (Educación secundaria)</strong><br>
+            UE: San Francisco de Asís Hallein</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
